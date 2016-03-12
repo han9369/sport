@@ -81,11 +81,14 @@ ul{
 
 .inline-wrapper div h4{
 	position: absolute;
-	font-size: 40px;
 	top: 50%;
 	opacity: 0;
 	transition: opacity: .5;
 	text-align: center;
+	width: 100%;
+	transform: translateY(-50%);
+	font-size: 40px;
+	margin: 0;
 }
 
 .inline-wrapper div:hover h4{
