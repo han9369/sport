@@ -1,0 +1,28 @@
+html{
+	font-family: Arial;
+	background-color: #9FF7FF;
+	color: #000092;
+}
+
+li{
+	font-size: 20px;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+}
+
+li a{
+	text-decoration: none;
+	color: blue;
+	border: 1px solid blue;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: white;
+	background-color: rgba(255,255,255,0.5);
+	transition: background-color .5s, color .5s;
+}
+
+li a:hover{
+	background-color: #152561;
+	color: white;
+}
