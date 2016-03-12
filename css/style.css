@@ -1,6 +1,10 @@
+*{
+	box-sizing: border-box;
+}
+
 html{
 	font-family: Arial;
-	background-color: #9FF7FF;
+	/*background-color: #9FF7FF;*/
 	color: #000092;
 }
 
@@ -33,7 +37,7 @@ li a:hover{
 
 nav{
 	margin-bottom: 40px;
-	position: fixed;
+	position: absolute;
 	top: 25px;
 }
 
@@ -47,5 +51,48 @@ ul{
 
 .banner{
 	width: 100%;
+	opacity: .5;
 
+}
+
+.banner-text{
+	position: absolute;
+	top: 130px;
+	text-align: center;
+	width: 100%;
+	padding: 0 25%;
+
+}
+.inline-wrapper{
+	margin-top: -3px;
+}
+
+.inline-wrapper div{
+	width: 33%;
+	display: inline-block;
+	position: relative;
+}
+
+.inline-wrapper div img{
+	width: 100%;
+	height: 250px;
+	transition: opacity: .5;
+}
+
+.inline-wrapper div h4{
+	position: absolute;
+	font-size: 40px;
+	top: 50%;
+	opacity: 0;
+	transition: opacity: .5;
+	text-align: center;
+}
+
+.inline-wrapper div:hover h4{
+	opacity: 1;
+
+}
+
+.inline-wrapper div:hover img{
+	opacity: .3;
 }
