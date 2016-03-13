@@ -6,6 +6,7 @@ html{
 	font-family: Arial;
 	/*background-color: #9FF7FF;*/
 	color: c;
+	font-size: 14px;
 }
 
 body{
@@ -113,6 +114,7 @@ table tr th, tr td{
 
 .games-topic{
 	text-align: center;
+	margin-top: 15%;
 }
 
 table{
@@ -174,3 +176,23 @@ table{
 	}
 }
 
+.container{
+	padding: 0 25%;
+}
+
+.contact-topic{
+	text-align: center;
+}
+
+.contact-form input, .contact-form textarea{
+	margin: 10px;
+	font-size: 1rem;
+}
+
+.page-top{
+	margin-top: 15%;
+}
+
+.padding-free{
+	padding: 0;
+}
